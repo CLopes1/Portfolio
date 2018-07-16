@@ -5773,7 +5773,13 @@ Created using IcoMoon - icomoon.io
     padding: 0; }
     .card-collapse .card .card-header {
       padding: .75rem 0;
-      position: relative; }
+      position: relative;
+      width: 50%;
+      margin-left:25%; }
+
+      .listItem {
+        margin-left:25%;
+      }
       .card-collapse .card .card-header:after {
         content: "";
         position: absolute;
