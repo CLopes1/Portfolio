@@ -5824,7 +5824,8 @@ Created using IcoMoon - icomoon.io
     color: #a2a2a2; }
   .card .card-title {
     margin-top: 15px;
-    line-height: 1.25em; }
+    line-height: 1.25em;
+    font-weight:400; }
   .card[data-background-color="orange"] {
     background-color: #f96332; }
   .card[data-background-color="red"] {
