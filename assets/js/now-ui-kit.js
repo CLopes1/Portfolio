@@ -544,3 +544,30 @@ function debounce(func, wait, immediate) {
         if (immediate && !timeout) func.apply(context, args);
     };
 };
+
+$('#dropDown1').on("click", function () {
+    // console.log("hi there!")
+    $('html, body').animate({
+        scrollTop: ($('#aboutMe').offset().top)
+    }, 500)
+})
+
+$('#dropDown2').on("click", function () {
+    // console.log("hi there!")
+    $('html, body').animate({
+        scrollTop: ($('#portfolio').offset().top)
+    }, 500)
+})
+
+$('#dropDown3').on("click", function () {
+    // console.log("hi there!")
+    $('html, body').animate({
+        scrollTop: ($('#contact').offset().top)
+    }, 500)
+})
+
+$('#back2Top').on("click", function () {
+    $('html, body').animate({
+        scrollTop: ($('#nav').offset().top)
+    }, 500)
+})

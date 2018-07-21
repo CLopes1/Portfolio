@@ -30,13 +30,10 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-header">Menu</a>
-                    <a class="dropdown-item" href="#">About Me</a>
-                    <a class="dropdown-item" href="#">Portfolio</a>
-                    <a class="dropdown-item" href="#">Email Me</a>
-                    <!-- <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">One more separated link</a> -->
+                    <a class="dropdown-item" id="dropDown1" href="#">About Me</a>
+                    <a class="dropdown-item" id="dropDown2" href="#">Portfolio</a>
+                    <a class="dropdown-item" id="dropDown3" href="#">Contact Me</a>
+                
                 </div>
             </div>
             <div class="navbar-translate">
@@ -59,7 +56,7 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header page-header-small" filter-color="">
+        <div class="page-header page-header-small" id="nav" filter-color="">
             <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/bgBigSur.jpg') ;">
             </div>
             <div class="content-center">
@@ -97,7 +94,7 @@
                     </a>
 
                 </div>
-                <h3 class="title">About me</h3>
+                <h3 class="title" id="aboutMe">About me</h3>
                 <h5 class="description text-center">
                     Hello! My name is Christian Lopes, and I'm a graduate of UCI Continuing Education's Full Stack Web Development Program. I'm
                     a passionate and design-minded problem solver that loves building things! Here are some of my skills.
@@ -143,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" id="portfolio">
                     <div class="col-md-12">
                         <h4 class="title text-center">Portfolio</h4>
                         <div class="nav-align-center">
@@ -486,8 +483,8 @@
                     </div>
                 </div>
             </div>
-            <!--     *********    CONTACT US 2     *********      -->
-            <div class="contactus-2">
+            <!--     *********    CONTACT ME     *********      -->
+            <div class="contactus-2" id="contact">
                 <div id="contactUsMap" class="map"></div>
                 <div class="col-lg-6 col-md-10">
                     <div class="card card-contact card-raised">
@@ -574,16 +571,16 @@
                 <div class="container">
                     <nav>
                         <ul>
-                            <li>
-                                <a href="#creative">
-                                    Christian Lopes
+                            <li id="back2Top">
+                                <a href="#creative" >
+                                    Back To Top
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#creative">
                                     About Me
                                 </a>
-                            </li>
+                            </li> -->
                             <!-- <li>
                                 <a href="#creative">
                                     Blog
@@ -611,11 +608,14 @@
 <!--   Core JS Files   -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
 <script src="./assets/js/plugins/moment.min.js"></script>
+
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="./assets/js/plugins/bootstrap-switch.js"></script>
 <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
