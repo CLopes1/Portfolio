@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./public/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./public/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Christian Lopes - Full Stack Web Developer</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'
+    />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link href="./public/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
+</head>
+
+<body class="profile-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+            <div class="dropdown button-dropdown">
+                <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+                    <span class="button-bar"></span>
+                    <span class="button-bar"></span>
+                    <span class="button-bar"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-header">Menu</a>
+                    <a class="dropdown-item" id="dropDown1" href="#">About Me</a>
+                    <a class="dropdown-item" id="dropDown2" href="#">Portfolio</a>
+                    <a class="dropdown-item" id="dropDown3" href="#">Contact Me</a>
+
+                </div>
+            </div>
+            <div class="navbar-translate">
+                <!-- <a class="navbar-brand" href="http://demos.creative-tim.com/marketplace/now-ui-kit-pro/presentation.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim"
+                    data-placement="bottom">
+                    Explore
+                </a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" data-nav-image="../public/img/blurred-image-1.jpg" data-color="orange">
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="wrapper">
+        <div class="page-header page-header-small" id="nav" filter-color="">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('./public/img/bgBigSur.jpg') ;">
+            </div>
+            <div class="content-center">
+                <div class="photo-container">
+                    <img src="./public/img/headshot.png" alt="">
+                </div>
+                <h3 class="title">Christian Lopes</h3>
+                <p class="category">Web Designer | Full Stack Developer</p>
+                <div class="content">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="button-container">
+                    <!-- <a href="#button" class="btn btn-primary btn-round btn-lg">Follow</a> -->
+                    <a href="https://www.linkedin.com/in/christian-lopes/" target="_blank" class="btn btn-info btn-round btn-lg btn-icon" rel="tooltip"
+                        title="Follow me on LinkedIn">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/CLopes1" target="_blank" class="btn btn-info btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Github">
+                        <i class="fa fa-github"></i>
+                    </a>
+
+                </div>
+                <h3 class="title" id="aboutMe">About me</h3>
+                <h5 class="description text-center">
+                    Hello! My name is Christian Lopes, and I'm a graduate of UCI Continuing Education's Full Stack Web Development Program. I'm
+                    a passionate and design-minded problem solver that loves building things! Here are some of my skills.
+                </h5>
+                <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
+                    <div class="card card-plain">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Front End Skills
+                                <i class="now-ui-icons arrows-1_minimal-down"></i>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-body" id="card-body">
+                                <ul class="listItem">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>REACT</li>
+                                    <li>Bootstrap 4</li>
+                                    <li>Materialize</li>
+                                    <li>UI-Kit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain">
+                        <div class="card-header" role="tab" id="headingThree">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Back End Skills
+                                <i class="now-ui-icons arrows-1_minimal-down"></i>
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="card-body">
+                                <ul class="listItem">
+                                    <li>Databases (MySQL, MongoDB)</li>
+                                    <li>Deployment (Git, Heroku, Firebase)</li>
+                                    <li>Server Side Development (Node.js, Express, MERN Stack)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="portfolio">
+                    <div class="col-md-12">
+                        <h4 class="title text-center">Portfolio</h4>
+                        <div class="nav-align-center">
+                            <ul class="nav nav-pills nav-pills-primary nav-pills-just-icons" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#profile" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons tech_controller-modern"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#home" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons media-1_album"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#messages" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons location_world"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#test1" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons education_hat"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#test2" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons location_pin"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#test3" role="tablist" rel="tooltip" title="View Project">
+                                        <i class="now-ui-icons education_atom"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content gallery">
+                            <div class="tab-pane active" id="profile" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/rpg-game.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">RPG Game</h2>
+                                                <p class="card-description text-white">
+                                                    A strategy-based role playing game inspired by some of my favorite Marvel characters.
+                                                </p>
+                                                <span>
+                                                    <a href="https://clopes1.github.io/Marvel-RPG/" target="_blank" rel="tooltip" title="View Live Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/Marvel-RPG" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    I was the sole contributor on this project.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">TechToolbelt</h5>
+                                                <p class="description">
+                                                    HTML, CSS, JavaScript,jQuery,Bootstrap 4
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="home" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/giphy.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">Giphy API</h2>
+                                                <p class="card-description">
+                                                    A web-based search engine for exploring gif content. I utilized the Giphy API for this project.
+                                                </p>
+                                                <span>
+                                                    <a href="https://clopes1.github.io/GIPHY-API/" target="_blank" rel="tooltip" title="View LIve Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/GIPHY-API" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    I was the sole contributor on this project.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">TechToolbelt</h5>
+                                                <p class="description">
+                                                    HTML, CSS, JavaScript, Bootstrap 4, AJAX Requests, jQuery
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="messages" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/trivia.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">Trivia Game</h2>
+                                                <p class="card-description">
+                                                    This is a timed web-based triva game. I got the inspiration for the content from my home state of New Jersey. Hence the name
+                                                    "Garden State Trivia."
+                                                </p>
+                                                <span>
+                                                    <a href="https://clopes1.github.io/TriviaGame-Easy/" target="_blank" rel="tooltip" title="View Live Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/TriviaGame-Easy" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    I was the sole contributor to this project. </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">Tech Toolbelt</h5>
+                                                <p class="description">
+                                                    HTML, CSS, JavaScript, Bootstrap 4, AJAX Requests, jQuery </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="test1" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/slack1.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">UCI Resource</h2>
+                                                <p class="card-description">
+                                                    SlackOverflow is repository for sharing and indexing web development resources online and directly via the Slack application.
+                                                    This was one of three capstone projects I worked on. This eventually
+                                                    became adopted as an official resource for UCI's Full Stack Web Development
+                                                    program.
+                                                </p>
+                                                <span>
+                                                    <a href="https://slackerflow.herokuapp.com/" target="_blank" rel="tooltip" title="View Live Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/Project-2" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    <ul class="listItem2">
+                                                        <li>Overall Design - Images,Logos,Branding</li>
+                                                        <li>Displaying content dynamically with jQuery</li>
+                                                        <li>Navigation bars</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">TechToolbelt</h5>
+                                                <p class="description">
+                                                    HTML, CSS, JavaScript, Bootstrap 4, AJAX Requests, jQuery
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="test2" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/hopstop.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">Brewery Locator</h2>
+                                                <p class="card-description">
+                                                    Powered by the BreweryDB API, this tool allows visitors to locate beer breweries within a given geographic locaton on a Google
+                                                    maps.
+                                                </p>
+                                                <span>
+                                                    <a href="http://hop-stop.herokuapp.com/" target="_blank" rel="tooltip" title="View Live Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/GroupProjectHopStop/" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    <ul class="listItem2">
+                                                        <li>Overall Design - Images,Logos,Branding</li>
+                                                        <li>Displaying content dynamically with jQuery</li>
+                                                        <li>BreweryDB API AJAX Requests</li>
+                                                    </ul>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-warning">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">Tech Toolbelt</h5>
+                                                <p class="description">
+                                                    HTML, CSS, JavaScript, Bootstrap 4, AJAX Requests, jQuery, Google Maps API, BreweryDB API, UI Kit, SweetAlert, Node
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="test3" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto mr-auto">
+                                        <div class="card card-background card-background-product card-raised" style="background-image: url('./public/img/slack2.png')">
+                                            <div class="card-body">
+                                                <h2 class="card-title">UCI Resource</h2>
+                                                <p class="card-description">
+                                                    The second iteration of SlackOverflow. We rebranded the site with a developer inspired front end that mimics VS Code. We
+                                                    also added an admin page for site managememnt.
+                                                </p>
+                                                <span>
+                                                    <a href="https://slackoverflow2.herokuapp.com/" target="_blank" rel="tooltip" title="View Live Site">
+                                                        <label class="badge badge-neutral">Live Demo</label>
+                                                    </a>
+                                                    <a href="https://github.com/CLopes1/slack-overflow" target="_blank" rel="tooltip" title="View Source Code">
+                                                        <label class="badge badge-neutral">Github Repository</label>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons users_single-02"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">My Contributions</h5>
+                                                <p class="description">
+                                                    <ul class="listItem2">
+                                                        <li>Designed Main Page</li>
+                                                        <li>Category Carousel</li>
+                                                        <li>Results Cards / Upvote Downvote Routes</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-info">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">TechToolbelt</h5>
+                                                <p class="description">
+                                                    HTML, JSX, CSS, JavaScript, Materialize, REACT Materialze, MERN, Font Awesome, Slack Real-Time-Messaging (RTM) API,Ssuggestor,
+                                                    NPM, Get-URLs NPM
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!--     *********    CONTACT ME     *********      -->
+            <div class="contactus-2" id="contact">
+                <div id="contactUsMap" class="map"></div>
+                <div class="col-lg-6 col-md-10">
+                    <div class="card card-contact card-raised">
+                        <form role="form" id="contact-form" method="POST" action="send">
+                            <div class="card-header text-center">
+                                <!-- <h4 class="card-title">Contact Me</h4> -->
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="info info-horizontal">
+                                            <div class="icon icon-primary">
+                                                <i class="now-ui-icons tech_mobile"></i>
+                                            </div>
+                                            <div class="description">
+                                                <h5 class="info-title">Let's Connect!</h5>
+                                                <p> If you're in need of a full stack developer, then look no further! I'd love
+                                                    to hear about your ideas and how we can make them come to life!
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 pr-2">
+                                        <label>Full name</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="now-ui-icons users_circle-08"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" name ="name" class="form-control" placeholder="Full Name...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-2">
+                                        <label>Email address</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="now-ui-icons ui-1_email-85"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="email" class="form-control" placeholder="Email Here...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-12 pl-2">
+                                        <label>Your message</label>
+                                        <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox">
+                                                <span class="form-check-sign"></span>
+                                                I'm not a robot
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="submit" class="btn btn-primary btn-round pull-right">Send Message</button>
+                                        {{msg}}
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--     *********    END CONTACT ME      *********      -->
+            <footer class="footer footer-default ">
+                <div class="container">
+                    <nav>
+                        <ul>
+                            <li id="back2Top">
+                                <a href="#creative">
+                                    Back To Top
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>, Designed by Christian Lopes
+                      
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+<!--   Core JS Files   -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+<script src="./public/js/plugins/moment.min.js"></script>
+
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="./public/js/plugins/bootstrap-switch.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="./public/js/plugins/bootstrap-tagsinput.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="./public/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAot-4WONuTW4cWWdWshNfbGJFSwI-KXYg"></script>
+<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="./public/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="./public/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="./public/js/plugins/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="./public/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // the body of this function is in public/js/now-ui-kit.js
+        nowuiKit.initContactUsMap();
+    });
+</script>
+
+</html>
