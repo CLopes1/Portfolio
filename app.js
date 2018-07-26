@@ -40,8 +40,8 @@ app.post('/send', (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: process.env.USERNAME, // generated ethereal user
-            pass: process.env.PASSWORD // generated ethereal password
+            user: process.env.USERNAME, // gmail username
+            pass: process.env.PASSWORD // gmail password
         },
         
         tls:{
