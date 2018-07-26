@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
@@ -39,8 +40,8 @@ app.post('/send', (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'christian.alexander.lopes@gmail.com', // generated ethereal user
-            pass: 'pVMs]8x9cNv6J(8cEfb?9}K.@,.]*BMEmV4kpQUQTN7i7Q8rG4' // generated ethereal password
+            user: process.env.USERNAME, // generated ethereal user
+            pass: process.env.PASSWORD // generated ethereal password
         },
         
         tls:{
