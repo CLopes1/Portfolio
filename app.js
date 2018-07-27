@@ -71,4 +71,12 @@ app.post('/send', (req, res) => {
 
 });
 
-app.listen(3000, () => console.log('Server started...'));
+const PORT = process.env.PORT || 3000
+// listening port
+app.listen(PORT, function (e) {
+    console.log('Server runnning...')
+
+  if (e) throw e
+})
+
+// app.listen(3000, () => console.log('Server started...'));
