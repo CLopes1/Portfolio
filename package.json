@@ -4,7 +4,6 @@
   "description": "Portfolio Page",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -24,9 +23,5 @@
     "express-handlebars": "^3.0.0",
     "nodemailer": "^4.6.7",
     "nodemon": "^1.18.3"
-  },
-
-  "scripts": {
-    "start": "node server.js"
   }
 }
