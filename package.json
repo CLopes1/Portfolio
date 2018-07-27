@@ -4,7 +4,9 @@
   "description": "Portfolio Page",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  }
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "nodemailer": "^4.6.7",
     "nodemon": "^1.18.3"
   },
+
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   }
 }
