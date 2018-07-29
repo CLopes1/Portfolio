@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio Page",
   "main": "app.js",
+  "engines": {
+    "node": "9.3.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
